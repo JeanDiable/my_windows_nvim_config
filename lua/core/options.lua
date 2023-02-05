@@ -51,3 +51,4 @@ vim.cmd[[set tags='E:\DATA\ctags']]
 
 vim.cmd([[]])
 vim.cmd([[let g:startify_custom_header = startify#pad(split(system("figlet -w 100 JEAN DIABLE"),'\n'))]])
+vim.cmd[[let g:NERDSpaceDelims=1]]

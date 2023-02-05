@@ -1,3 +1,4 @@
 {
-  "diagnostic.warningSign":"!!"
+  "diagnostic.warningSign":"!!",
+  "suggest.noselect": true
 }

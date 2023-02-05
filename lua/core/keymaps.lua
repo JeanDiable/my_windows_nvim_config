@@ -42,8 +42,8 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") --打开nvim-tree
 --keymap.set("n", "<leader>e", ":NERDTreeToggle<CR>") --打开NERDtree
 --打开undotree
 keymap.set('n', '<leader>u', require('undotree').toggle, { noremap = true, silent = true })
-keymap.set('n', '<leader>uo', require('undotree').open, { noremap = true, silent = true })
-keymap.set('n', '<leader>uc', require('undotree').close, { noremap = true, silent = true })
+--keymap.set('n', '<leader>uo', require('undotree').open, { noremap = true, silent = true })
+--keymap.set('n', '<leader>uc', require('undotree').close, { noremap = true, silent = true })
 
 keymap.set('n', 'r',":call CompileRunGcc()<CR>" )
 --展开大纲
